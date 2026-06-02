@@ -142,6 +142,43 @@ style="max-width:100%; height:auto;">
 <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800">
 <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800">
 </div>
+
+<style>
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    animation: slide 12s infinite;
+}
+
+.slides img {
+    width: 100%;
+    flex: 1 0 100%;
+}
+
+@keyframes slide {
+    0%, 30% {
+        transform: translateX(0);
+    }
+    33%, 63% {
+        transform: translateX(-100%);
+    }
+    66%, 96% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+</style>
+
+
+
+    
 </section>
 
 <section id="contact" class="contact">
