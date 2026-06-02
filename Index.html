@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GlobalInteriors</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    line-height:1.6;
+}
+
+header{
+    background:#222;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+}
+
+.hero{
+    height:80vh;
+    background:url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1600')
+               center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:3rem;
+    background:rgba(0,0,0,0.5);
+    padding:20px;
+}
+
+section{
+    padding:60px 10%;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#f4f4f4;
+    padding:25px;
+    border-radius:10px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:15px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:10px;
+}
+
+.contact{
+    background:#222;
+    color:white;
+    text-align:center;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>GlobalInteriors</h2>
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#gallery">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero">
+<h1>Transforming Spaces Into Beautiful Experiences</h1>
+</div>
+
+<section id="about">
+<h2>About Us</h2>
+<p>
+We create stunning residential and commercial interiors that combine
+functionality, comfort, and elegance.
+</p>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+<div class="services">
+<div class="card">
+<h3>Residential Design</h3>
+<p>Luxury home interiors tailored to your lifestyle.</p>
+</div>
+
+<div class="card">
+<h3>Commercial Design</h3>
+<p>Modern office and retail space design solutions.</p>
+</div>
+
+<div class="card">
+<h3>3D Visualization</h3>
+<p>See your space before construction begins.</p>
+</div>
+</div>
+</section>
+
+<section id="gallery">
+<h2>Featured Projects</h2>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800">
+</div>
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<p>Email: tobeupdated</p>
+<p>Phone: 12345</p>
+</section>
+
+<footer>
+© 2026 GlobalInteriors
+</footer>
+
+</body>
+</html>
